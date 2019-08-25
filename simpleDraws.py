@@ -232,7 +232,7 @@ def main():
     pygame.init()
     display = (600, 600)
     pygame.display.set_caption('Trabalho 1')
-    screen = pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
+    pygame.display.set_mode(display, DOUBLEBUF | OPENGL)
     glOrtho(-100, 100, -100, 100, -10, 10)
     max = 11
     i = 1
